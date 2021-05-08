@@ -1,0 +1,27 @@
+{
+  "name": "nju33-vscode-snippets",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "*"
+  },
+  "publisher": "nju33ki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nju33/vscode-snippets"
+  },
+  "scripts": {
+    "package": "vsce pacakge",
+    "publish": "vsce publish"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": ".vscode/typescriptreact.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.88.0"
+  }
+}

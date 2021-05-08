@@ -1,4 +1,4 @@
-# 
+# nju33-vscode-snippets
 
 ## Gitpod variables
 

@@ -1,0 +1,17 @@
+{
+  "Define a easiest fn component": {
+    "prefix": ["defc"],
+    "body": [
+      "import React from 'react'",
+      "",
+      "export interface ${1:$TM_FILENAME_BASE}Props {",
+      "}",
+      "",
+      "export const ${1:$TM_FILENAME_BASE}: React.ReactElement = () => {",
+      "  return <div>Hello ${1:$TM_FILENAME_BASE}</div>",
+      "}",
+      "$2"
+    ],
+    "description": "Define a easiest fn component"
+  }
+}
