@@ -1,5 +1,8 @@
 # nju33-vscode-snippets
 
+- [https://marketplace.visualstudio.com/items?itemName=nju33.nju33-vscode-snippets](https://marketplace.visualstudio.com/items?itemName=nju33.nju33-vscode-snippets)
+- [https://open-vsx.org/extension/nju33ki/nju33-vscode-snippets](https://open-vsx.org/extension/nju33ki/nju33-vscode-snippets)
+
 ## Gitpod variables
 
 - `GIT_USER_SIGNINGKEY` is a sign necessary when you do `git commit`

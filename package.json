@@ -5,13 +5,15 @@
     "vscode": "*"
   },
   "publisher": "nju33ki",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/nju33/vscode-snippets"
   },
   "scripts": {
     "package": "vsce pacakge",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "publish-to-open-vsx": "ovsx publish $(fzf) -p"
   },
   "contributes": {
     "snippets": [
@@ -22,6 +24,7 @@
     ]
   },
   "devDependencies": {
+    "ovsx": "^0.1.0",
     "vsce": "^1.88.0"
   }
 }
